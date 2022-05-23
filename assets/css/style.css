@@ -8,20 +8,29 @@
         "conteudo"
         "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
 }
 
 .cabecalho {
     /* background-color: rgb(129, 196, 129); */
     grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
 }
  
 .conteudo {
     /* background-color:rgb(185, 93, 93); */
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
     /* background-color:rgb(115, 115, 172); */
     grid-area: rodape;
+    background: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
 }
