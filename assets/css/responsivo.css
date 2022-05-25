@@ -1,4 +1,8 @@
 @media screen and (min-width: 0) {
+    .menu__link {
+        padding: .5rem .5rem;
+    }
+
     .destaques__principal, .destaques__categorias {
         grid-column: 1/5;
     }
@@ -39,6 +43,10 @@
 
 
 @media screen and (min-width: 768px) {
+    .menu__link {
+        padding: .5rem 1rem;
+    }
+    
     .destaques__principal {
         grid-column: 1/4;
     }
